@@ -1,0 +1,10 @@
+.container {
+    margin: 0 600px;
+    text-align: center;
+}
+.row {
+    display: flex;
+}
+.left {
+    float: left;
+}

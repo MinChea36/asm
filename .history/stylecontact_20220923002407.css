@@ -1,0 +1,44 @@
+
+body {
+    background-color: aliceblue ;
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+.container {
+    padding: 64px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.center {
+    text-align: center;
+}
+.row {
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+}
+.left {
+    float: left;
+    font-size: large;
+    margin-bottom: 32px;
+}
+.row-padding {
+    display: flex;
+}
+.right {
+    float: right;
+    padding: 8px 16px;
+    margin: 16px 0;
+}
+input[type="text"] {
+    padding: 6px;
+    background-color: aliceblue;
+    opacity: 0.5;
+    font-weight: bolder;
+}
+.map {
+    margin-top: 20px;
+    
+}

@@ -1,0 +1,23 @@
+.container {
+    padding: 64px;
+}
+.center {
+    text-align: center;
+}
+.row {
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+}
+.left {
+    float: left;
+    font-size: large;
+    margin-bottom: 32px;
+}
+.row-padding {
+    display: flex;
+    justify-content: ;
+}
+.right {
+    float: right;
+}

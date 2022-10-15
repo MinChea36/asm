@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServeyForm</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div class="top-menu">
+        <div class="menu">
+            <a href="./ASSM1.html">Home</a> |
+            <a href="./moreband.html">More Bands</a> |
+            <a href="./Contacts.html">My contacts Info</a> |
+            <a href="./serveyform.html">Servey Form</a> |
+        </div>
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+    <div class="container-header">
+      <form style="margin-top: 100px;">
+        <header class="header">
+          <h1 class="text-center">Band and Singer Survey Form</h1>
+          <p class="description text-center">
+            Thank you for taking the time to help us improve the platform
+          </p>
+        </header>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="age">Age <span class="clue">(optional)</span></label>
+          <input
+            type="number"
+            name="age"
+            id="number"
+            class="form-control"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Age"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="role">Which option best describes your current role?</label>
+          <select class="form-control">
+            <option disabled selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>
+            <option value="learner">Part Time Job</option>
+          </select>
+        </div>       
+        <div class="form-group">
+        <p>Would you recommend my website to your friend?</p>
+          <label><input name="recommend" class="input-radio" type="radio" value="definitely" checked >Definitely</label>
+          <label><input name="recommend" class="input-radio" type="radio" value="maybe" />Maybe</label>
+          <label><input name="recommend" class="input-radio" type="radio" value="notsure" />Notsure</label>
+        </div>
+        <div class="form-group">
+          <p>What music do you like best?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+          <label for="improved"><input class="input-checkbox" type="checkbox" >USUK</label>
+          <label for="improved"><input class="input-checkbox" type="checkbox" >KPOP</label>
+          <label for="improved"><input class="input-checkbox" type="checkbox" >VPOP</label>
+          <label for="improved"><input class="input-checkbox" type="checkbox" >Balad</label>
+          <label for="improved"><input class="input-checkbox" type="checkbox" >Chill</label>
+          <label for="improved"><input class="input-checkbox" type="checkbox">Beat</label>
+        </div>
+        <div class="form-group">
+          <p>Comment some songs!!!</p>
+          <textarea class="input-textarea" id="suggestions" name="suggestions" placeholder="Enter your comments here..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="footer">
+        <footer class="container" >
+  <i style="color: black;" class="fa-brands fa-facebook"></i>
+  <i style="color: black;" class="fa-brands fa-instagram "></i>
+  <i style="color: black;" class="fa-brands fa-snapchat "></i>
+  <i style="color: black;" class="fa-brands fa-pinterest-p "></i>
+  <i style="color: black;" class="fa-brands fa-twitter "></i>
+  <i  class="fa-brands fa-linkedin "></i>
+  <br>
+  <br>
+  <p class="w3-medium">Don't Copy &copy; My ASSMT</p>
+</footer>
+    </div>
+  </body>
+</html>

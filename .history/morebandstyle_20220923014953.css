@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    right: 0;
+    opacity: 0.5;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 20px;
+}
+.menu a:hover {
+    color: red;
+    transition: 0.25s linear;
+}
+.search {
+    position: relative;
+}
+.search i {
+    color: white;
+    padding-right: 50px;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.more-band {
+    position: relative;
+}
+.more-band-text {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.contact {
+    width: 100%;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100%;
+}
+.text {
+    margin: 0 100px;
+    text-align: justify;
+}
+.col img {
+    display: block;
+    width: 100%;
+    min-width: 760px;
+    max-width: 760px;
+}

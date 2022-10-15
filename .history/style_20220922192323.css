@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+}
+.top-menu .menu a {
+    
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: red;
+}
+.search i {
+    color: white;
+}

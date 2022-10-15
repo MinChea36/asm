@@ -1,0 +1,38 @@
+.background {
+    background-color: aliceblue;
+}
+.container {
+    padding: 64px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    opacity: 0.5
+    ;
+}
+.center {
+    text-align: center;
+}
+.row {
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+}
+.left {
+    float: left;
+    font-size: large;
+    margin-bottom: 32px;
+}
+.row-padding {
+    display: flex;
+}
+.right {
+    float: right;
+    padding: 8px 16px;
+    margin: 16px 0;
+}
+input[type="text"] {
+    padding: 6px;
+}
+.map {
+    margin-top: 20px;
+}

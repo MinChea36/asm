@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet/less" type="text/css" href="./stylelogin.less" />
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: "Lato", sans-serif;
+    }
+
+    .top-menu {
+      display: flex;
+      justify-content: space-between;
+      background-color: black;
+      padding: 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      right: 0;
+      opacity: 0.5;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      padding: 0 20px;
+      font-size: 20px;
+    }
+
+    .menu a:hover,
+    .search a:hover {
+      color: red;
+      transition: 0.25s linear;
+    }
+
+    /* .search {
+  position: relative;
+}
+.search a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding-right: 50px;
+}
+.search i {
+  color: white;
+  padding-right: 50px;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+    .search i,
+    a {
+      color: white;
+      padding-right: 20px;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <div class="top-menu">
+      <div class="menu">
+        <a href="./ASSM1vs2.html">Home</a>
+        <a href="./moreband.html">Tours Of Bands</a>
+        <a href="./Contacts.html">My contacts Info</a>
+        <a href="./serveyform.html">Check Form</a>
+        <a href="./Instruments.html">Musical Instruments</a>
+      </div>
+      <div class="search">
+        <a href="./login.html">Login</a>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="container">
+        <h1>LOGIN</h1>
+
+        <form class="form">
+          <input type="text" placeholder="Username" />
+          <input type="password" placeholder="Password" />
+          <button type="submit" id="login-button">Login</button>
+        </form>
+      </div>
+
+      <ul class="bg-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <script>
+      $("#login-button").click(function (event) {
+        event.preventDefault();
+
+        $("form").fadeOut(500);
+        $(".wrapper").addClass("form-success");
+      });
+    </script>
+  </body>
+</html>

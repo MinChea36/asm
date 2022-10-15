@@ -1,0 +1,106 @@
+body {
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    right: 0;
+    opacity: 0.5;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    color: red;
+    transition: 0.25s linear;
+}
+
+.search {
+    position: relative;
+}
+
+.search i {
+    color: white;
+    padding-right: 50px;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-heading {
+    padding: 64px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 100px !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+}
+
+.left {
+    float: left;
+    font-size: large;
+    margin-bottom: 32px;
+}
+
+.row-padding {
+    display: flex;
+}
+
+.right {
+    float: right;
+    padding: 8px 16px;
+    margin: 16px 0;
+}
+
+input[type="text"] {
+    padding: 6px;
+    background-color: aliceblue;
+    opacity: 0.5;
+    font-weight: bolder;
+    
+}
+
+.map {
+    margin-top: 20px;
+
+}
+
+.container {
+    text-align: center;
+    padding: 24px 32px;
+}
+
+.container i,
+p {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: aliceblue;
+}

@@ -1,0 +1,12 @@
+.container {
+    margin: 0 600px;
+}
+.row {
+    display: flex;
+}
+.left {
+    float: left;
+}
+.center {
+    text-align: center;
+}
